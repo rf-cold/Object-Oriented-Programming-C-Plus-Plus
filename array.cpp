@@ -2,10 +2,10 @@
 #include <vector>
 using namespace std;
 /**
-* @breif prints the elements in the aray and their memory locations
+* @brief prints the elements in the array and their memory locations
 *
 *@param arr - array of integers
-*@param sinze - number of elements in the array
+*@param size - number of elements in the array
 */
 void printMemArr(const int * arr, int size) { // void printMemarr(int arr[], int size)
     printf("Array - Each int is worth %lu bytes\n", sizeof(arr[0]));
@@ -14,10 +14,10 @@ void printMemArr(const int * arr, int size) { // void printMemarr(int arr[], int
     }
 }
 /**
-* @breif prints the elements in the arr by 10
+* @brief prints the elements in the arr by 10
 *
 *@param arr - array of integers
-*@param sinze - number of elements in the array
+*@param size - number of elements in the array
 */
 void incArrBy10(int * arr, int size) { //void incArrBy10(int arr[], int size )
     for (int i = 0; i < size; i++) {
