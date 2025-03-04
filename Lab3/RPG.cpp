@@ -62,10 +62,20 @@ void RPG::printAction(string skill, RPG opponent) {
     printf("%s used %s on %s\n", name.c_str(), skill.c_str(), opponent.getName().c_str());
 }
 
+/**
+ * @brief Updates health to new_health
+ * 
+ * @param new_health The new health value to set
+ */
 void RPG::updateHealth(int new_health) {
     health = new_health;
 }
 
+/**
+ * @brief Returns whether health is greater than 0
+ * 
+ * @return true if the character is alive, false otherwise
+ */
 bool RPG::isAlive() const {
     return health > 0;
 }
