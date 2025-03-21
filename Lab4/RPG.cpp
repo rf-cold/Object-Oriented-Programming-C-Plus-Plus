@@ -8,8 +8,8 @@ using namespace std;
 RPG::RPG() {
     name = "NPC";
     health = 100;
-    strength = 10;
-    defense = 10;
+    strength = 25;
+    defense = 15;
     type = "warrior";
     skills[0] = "slash";
     skills[1] = "parry";
